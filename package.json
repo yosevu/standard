@@ -1,0 +1,14 @@
+{
+  "name": "standard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yosevu/standard.git",
+  "author": "Yosevu Kilonzo <yosevuk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "note-link-janitor src"
+  },
+  "devDependencies": {
+    "@andymatuschak/note-link-janitor": "^0.0.1"
+  }
+}
