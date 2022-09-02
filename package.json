@@ -6,7 +6,7 @@
   "author": "Yosevu Kilonzo <yosevuk@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "note-link-janitor src"
+    "build": "note-link-janitor docs"
   },
   "devDependencies": {
     "@andymatuschak/note-link-janitor": "^0.0.1"

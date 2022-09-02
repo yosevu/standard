@@ -1,0 +1,17 @@
+name: Generate Backlinks
+
+on:
+  gollum:
+  workflow_dispatch:
+  push:
+    branches:
+      - dev
+
+jobs:
+  generate-backlinks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: ${{github.repository}}.wiki
+      - uses: sander/note-link-janitor@v5
